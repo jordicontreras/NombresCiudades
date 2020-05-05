@@ -1,0 +1,13 @@
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.exe
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.deps.json
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.runtimeconfig.json
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.runtimeconfig.dev.json
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.dll
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\bin\Debug\netcoreapp3.1\NombreCiudades.pdb
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.csprojAssemblyReference.cache
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.csproj.CoreCompileInputs.cache
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.AssemblyInfoInputs.cache
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.AssemblyInfo.cs
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.dll
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.pdb
+C:\Users\jordi\source\repos\NombreCiudades\NombreCiudades\obj\Debug\netcoreapp3.1\NombreCiudades.genruntimeconfig.cache

@@ -1,0 +1,96 @@
+<script>
+
+//********* FASE 1 *********
+//Declaramos 6 variables vacías
+var var1 = "";
+var var2 = "";
+var var3 = "";
+var var4 = "";
+var var5 = "";
+var var6 = "";
+
+
+console.log("********* FASE 1 *********");
+
+//Introducimos los valores en las variables a través del códido
+var1 = "Barcelona";
+var2 = "Madrid";
+var3 = "Valencia";
+var4 = "Malaga";
+var5 = "Cadis";
+var6 = "Santander";
+
+//Imprimimos los nombres de las ciudades introducidas
+console.log("Nombres ciudades en variables");
+console.log(var1);
+console.log(var2);
+console.log(var3);
+console.log(var4);
+console.log(var5);
+console.log(var6);
+
+
+
+//********* FASE 2 *********
+console.log("********* FASE 2 *********");
+
+//Creamos array con las ciudades introducidas
+var arrayCiudades = [var1, var2, var3, var4, var5, var6];
+console.log(arrayCiudades);
+//Ordenamos el array por orden alfabético
+arrayCiudades.sort();
+console.log(arrayCiudades);
+
+
+
+//********* FASE 3 *********
+console.log("********* FASE 3 *********");
+
+//Creamos el array para ciudades
+var arrayCiudadesModificadas = new Array();
+
+//Reemplazamos los valores "a" por el valor "4"
+arrayCiudades.forEach(ReemplazaValores);
+console.log(arrayCiudadesModificadas)
+
+
+
+//********* FASE 4 *********
+console.log("********* FASE 4 *********");
+
+//Creamos el array bidimensional de chars de las ciudades
+var arrayDeCaracteres = [];
+//Llamamos a la función de ciudades modificadas
+ArrayCiudadesChar(arrayCiudades);
+
+//Llamamos a la función que imprime el array de chars de manera invertida
+Invertir();
+
+
+
+//Añade los valores del array pasado al array arrayCiudadesModificadas(este debe estar vacío) sustituyendo "a" por "4"
+function ReemplazaValores(ciudad)
+{
+    ciudad = ciudad.replace(/a/gi, "4");
+    arrayCiudadesModificadas.push(ciudad);
+}
+
+
+//Función que separa los caracteres de los strings de las ciudades y los introduce en el array
+function ArrayCiudadesChar(arrayCiudades)
+{
+    for (var i=0;i<arrayCiudades.length;i++)
+    {
+        arrayDeCaracteres[i]=arrayCiudades[i].split("");
+    }
+    console.log(arrayDeCaracteres);
+}
+
+function Invertir()
+{
+    for(var i=0;i<arrayDeCaracteres.length;i++)
+    {
+        console.log(arrayDeCaracteres[i].reverse());    
+    }
+}
+</script>
